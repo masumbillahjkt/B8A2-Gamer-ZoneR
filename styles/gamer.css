@@ -1,0 +1,43 @@
+header{
+    font-family: 'Open Sans', sans-serif;
+    }
+   /* nav styles */
+    .img-gamer{
+        display: flex;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        padding: 38px 240px;
+        align-items: center;
+    }
+    .frame{
+        width: 86.041px;
+        height: 40px;
+        flex-shrink: 0;
+        margin-top: 20px;
+    }
+    nav > ul{
+        display: flex;
+    }
+    nav li{
+        list-style: none;
+        margin: 32px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    nav li a{
+        text-decoration: none;
+        color:black ;
+    }
+    .button{
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+       padding: 5px 30px;
+        color: #3C354F;
+        font-size: 18px;
+        font-weight: 500;
+      }
+  

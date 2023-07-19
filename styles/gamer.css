@@ -8,6 +8,7 @@ header{
     nav{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         background: #FFF;
         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
         padding: 38px 240px;
@@ -190,9 +191,14 @@ header{
 
       }
       .div5{
+        display: flex;
+        background: #4EC5F7;
+        justify-content: center;
+        align-items: center;
+    
         
       }
-
+    
        
      
     
@@ -222,4 +228,12 @@ header{
     .section-3{
         flex-direction: column;
     }
-    
+    .section-4{
+        flex-direction: column;
+    }
+    .section-5{
+        flex-direction: column;
+    }
+    .section-6{
+        flex-direction: column;
+    }

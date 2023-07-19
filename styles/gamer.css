@@ -13,6 +13,9 @@ header{
         padding: 38px 240px;
         align-items: center;
     }
+    span{
+        color: #4EC5F7;
+    }
     .frame{
         width: 86.041px;
         height: 40px;
@@ -45,6 +48,8 @@ header{
       .section-title{
         display: flex;
         justify-content: space-around;
+        
+    
      }
      .bannar-title{
         text-align: center;
@@ -57,19 +62,106 @@ header{
         font-size: 65px;
         font-weight: 700px;
      }
-      /* responsive media queries  */
-      @media screen and ( max-width: 576px){
-       header{
-        padding: 22px;
-
+     
+    .secend-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .we-are-gamer{
+    text-align: right;
+    align-items: center;
+    margin-top: 95px;
+    gap: 20px;
+    font-size: 28px;
+    width: 600;
+    }
+    .button-title{
+        border-radius: 48px;
+         background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+         padding: 21px 40px;
+    }
+    .button2{
+        border-radius: 48px;
+       background: #4EC5F7;
+        padding: 21px 40px;
+        
+    }
+    .Games-Funny{
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .online{
+        font-size: 48px;
+        font-weight: 700;
+    }
+   
+    .collection{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .images-title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      gap: 25px;
+      padding: 24px 240px;
+      
+    }
+    .paragarap{
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .section-dowloades{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 265px;
        }
+    .dowloades{
+        justify-content: center;
+        align-items: center;
+       margin-top: 336px;
+    }
+    .section-3{
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 249px;
+       margin-top: 50px;
+    }
+      
+       
+     
+    
+    /* responsive media queries  */
+    @media screen and ( max-width: 576px){
         nav{
             flex-direction: column;
-
-        }    
-        
-      }
-  .secend-title{
-    display: flex;
-  }
-  
+    
+           }
+           .section-title{
+            flex-direction: column;
+            
+            
+           }
+           .secend-title{
+            flex-direction: column;
+         }
+         .Games-Funny{
+            flex-direction: column;
+         }
+         .images-title{
+            flex-direction: column;
+    }
+    .section-dowloades{
+        flex-direction: column;
+    }
+    .section-3{
+        flex-direction: column;
+    }
+    

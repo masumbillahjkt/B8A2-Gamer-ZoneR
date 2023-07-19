@@ -40,4 +40,36 @@ header{
         font-size: 18px;
         font-weight: 500;
       }
+      /* section-title styles */
+
+      .section-title{
+        display: flex;
+        justify-content: space-around;
+     }
+     .bannar-title{
+        text-align: center;
+        padding: 104px 240px;
+     }
+     .images-18{
+        padding: 19px 60px;
+     }
+     .goat{
+        font-size: 65px;
+        font-weight: 700px;
+     }
+      /* responsive media queries  */
+      @media screen and ( max-width: 576px){
+       header{
+        padding: 22px;
+
+       }
+        nav{
+            flex-direction: column;
+
+        }    
+        
+      }
+  .secend-title{
+    display: flex;
+  }
   

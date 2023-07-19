@@ -134,7 +134,65 @@ header{
        gap: 249px;
        margin-top: 50px;
     }
+    .section-4{
+        display: flex;
+        background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        justify-content: center;
+        align-items: center;
+        padding: 50px 245px;
+        gap: 60px;
+        margin-top: 60px;
+        
+        
+    }
+    .div2{
+        display: flex;
+        font-size: 15px;
+        font-weight: 600;
+        gap: 97px;
+    }
+    .paragrap-games{
+        font-size: 15px;
+        font-weight: 600;
       
+
+    }
+    .Careers{
+        font-size: 48px;
+        font-weight: 700px;
+        
+    }
+    .button{
+        border-radius: 48px;
+        background: white;
+         padding: 21px 40px;
+         width: 40px;
+        margin-top: 50px;
+        }
+      .section-5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 149px 325px;
+        gap: 158px;
+      }
+      .section-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 96px;
+        text-align: center;
+        font-size:30px ;
+      }
+      ..section-5.section-6:hover{
+        border-radius: 2px solid red;
+
+      }
+      .div5{
+        
+      }
+
        
      
     
